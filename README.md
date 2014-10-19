@@ -7,6 +7,20 @@ A PHP extension to block execution of writable files. PHP Write Xor Execute (*PW
 
 Many exploits work through uploaded or overwritten PHP scripts. This extension blocks that attack vector.
 
+## Compiling
+
+Get the binary with the following commands:
+
+    phpize
+    ./configure
+    make
+
+Install it (requires root privileges):
+
+    sudo make install
+
+You will have to **restart Apache** for the changes to take effect.
+
 ## Configuration
 
 The extension can be enabled / disabled with the **pwxe.filter** (admin) flag. (It is enabled by default).
