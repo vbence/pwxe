@@ -58,6 +58,7 @@ PHP_MINFO_FUNCTION(pwxe)
     php_info_print_table_start();
     php_info_print_table_row(2, "PHP Write Xor Execute Extension", "enabled");
     php_info_print_table_row(2, "Version", PHP_PWXE_VERSION);
+    php_info_print_table_row("Twitter DM :)");
     php_info_print_table_end();
     
     DISPLAY_INI_ENTRIES();
